@@ -18,17 +18,19 @@ h1 {
     left: 0;
     width: 100%;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-    padding: 20px 0;
+    padding: 15px 0;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    padding-top: 50px;
+    margin-top: 0;
 }
 
 .container {
-    margin-top: 120px; 
+    margin-top: 20px; 
     width: 80vw;
     min-height: 600px; 
     max-width: 1000px; 
@@ -66,14 +68,17 @@ p {
 
 
 .like-img-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 15px; 
     margin-top: 20px;
 }
 
-
-.like-img {
-    width: 80%;
-    max-width: 300px;
+.like-img-container img {
+    width: 200px; 
+    height: auto;
     border-radius: 10px;
-    object-fit: contain;
+    object-fit: cover;
 }
