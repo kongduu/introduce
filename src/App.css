@@ -1,7 +1,7 @@
 .App {
     text-align: center;
     font-family: "Arial, sans-serif";
-    background-color: #f7f9fc; /* 연한 파스텔톤 배경 */
+    background-color: #f7f9fc;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,9 +9,10 @@
     justify-content: center;
     padding: 0;
     margin: 0;
-  }
+}
 
-  h1 {
+
+h1 {
     position: fixed;
     top: 0;
     left: 0;
@@ -24,13 +25,13 @@
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-  }
+}
 
-  .container {
-    margin-top: 130px;
-    width: 100%;
-    height: calc(100vh - 60px);
-    max-width: none;
+.container {
+    margin-top: 120px; 
+    width: 80vw;
+    min-height: 600px; 
+    max-width: 1000px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,34 +41,39 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     gap: 20px;
-  }
+}
 
-  .image {
+
+.image {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
+    object-fit: cover;
+}
 
-  h2 {
+
+h2 {
     color: #555;
     margin-bottom: 10px;
-  }
+}
 
-  p {
+p {
     color: #333;
     font-size: 20px;
     line-height: 1.5;
-  }
+}
 
 
-  .like-img-container {
+.like-img-container {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  .like-img {
-    width: 300px;
+}
+
+
+.like-img {
+    width: 80%;
+    max-width: 300px;
     border-radius: 10px;
-  }
-  
+    object-fit: contain;
+}
