@@ -5,7 +5,7 @@ function MyName({ name, nickname }) {
     <div>
       <h2>이름</h2>
       <p>본명: {name}</p>
-      <p>닉네임: {nickname}</p>
+      <p>별명: {nickname}</p>
     </div>
   );
 }
